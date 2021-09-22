@@ -1,0 +1,55 @@
+.email-list{
+	margin:50px;
+	margin-top: 30px;
+}
+
+li{
+	border:1px solid #ccc;
+	padding:20px;
+	font-family:sans-serif;
+	list-style: none;
+	margin:2px 0;
+	width:40%;
+	background: white;
+}
+
+.ui-selecting{
+	background: #00B4B4;
+	color: white;
+}
+
+.ui-selected{
+	background: #047dc9;
+	border-radius: 10px;
+	color: white;
+}
+
+.delete-btn,.restore-btn{
+	border:1px solid #ccc;
+	padding:20px;
+	background:white;
+	cursor:pointer;
+}
+
+.restore-btn{
+	display:none;
+	margin-left: 5px;
+}
+
+
+.b-mode,.c-mode{
+	padding:20px;
+	background:white;
+	border:1px solid #ccc;
+	margin-right:1px;
+	cursor: pointer;
+	outline: none;
+}
+
+.notice,.uses{
+	font-family:sans-serif;
+	font-size:18px;
+	padding: 0;
+	margin:0;
+	margin-top: 5px;
+}
